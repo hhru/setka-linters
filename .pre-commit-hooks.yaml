@@ -1,6 +1,6 @@
 - id: pylint-boolean-naming
   name: pylint-boolean-naming
   entry: pylint
-  language: system
+  language: python
   types: [python]
   additional_dependencies: [pylint]
