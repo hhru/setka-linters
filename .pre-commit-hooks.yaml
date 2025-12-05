@@ -1,6 +1,5 @@
-- id: pylint-setka
-  name: My Custom Linter
-  description: Lints Python files with a custom script.
-  entry: pylint_boolean_naming.checker
+- id: check-invalid-domains
+  entry: check-invalid-domains
+  name: hulks.check_invalid_domains
   language: python
-  types: [python]
+  types: [text]
