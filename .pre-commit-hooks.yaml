@@ -1,5 +1,5 @@
-- id: check-invalid-domains
-  entry: check-invalid-domains
-  name: hulks.check_invalid_domains
+- id: pylint-boolean-naming
+  entry: pylint-boolean-naming
+  name: pylint-boolean-naming.checker
   language: python
   types: [text]
