@@ -9,3 +9,4 @@ repos:
         entry: pylint
         language: python
         stages: [commit]
+

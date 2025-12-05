@@ -2,3 +2,4 @@
 init-hook="import sys;  import os; sys.path.append('.')"
 load-plugins=pylint-checkers.boolean_naming_checker
 ignore-patterns=.*(?<!py)$
+disable=C,W
