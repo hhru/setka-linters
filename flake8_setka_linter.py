@@ -72,8 +72,8 @@ class Plugin:
                 continue
             if not node.value.args:
                 continue
-            if not self.get_base_type_name(node.value.func) == "Column":
-                continue
+            #if not self.get_base_type_name(node.value.func) == "Column":
+            #    continue
 
             for target in node.targets:
                 if not isinstance(target, ast.Name):
