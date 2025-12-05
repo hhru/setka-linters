@@ -6,4 +6,5 @@
   additional_dependencies: [pylint]
   args: [
     "--load-plugins=pylint-checkers:boolean_naming_checker"
+    "--init-hook=import sys;  import os; sys.path.append('.')"
   ]
