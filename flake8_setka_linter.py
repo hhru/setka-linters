@@ -54,6 +54,14 @@ class Plugin:
                 "assertion": lambda f: f.get("full_type") == "sqlalchemy.UUID",
                 "message": "Поле '{}' должно использовать UUID вместо Integer",
             },
+            {
+                "error_code": "STK005",
+                "condition": lambda f: f.get("base_type") == "bool",
+                "assertion": lambda f: not (f.get("name").startwith('is_') or f.get("name").startwith('is_')),
+                "message": "Поле '{}' должно использовать UUID вместо Integer",
+            },
+
+
         ]
 
     def run(self) -> Generator[tuple[int, int, str, type], None, None]:
