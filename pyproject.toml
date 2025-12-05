@@ -3,7 +3,7 @@ name = "setka-linters"
 authors = [{name = "Anthony Shaw"}]
 readme = "README.md"
 classifiers = ["License :: OSI Approved :: MIT License"]
-dynamic = ["version", "description"]
+dynamic = ["version"]
 dependencies = ["pylint >=3.0.0,<4.0.0"]
 requires-python = ">=3.8"
 
