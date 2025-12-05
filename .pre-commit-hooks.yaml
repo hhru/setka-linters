@@ -3,3 +3,4 @@
   entry: pylint
   language: system
   types: [python]
+  additional_dependencies: [pylint]
