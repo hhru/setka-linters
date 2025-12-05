@@ -4,3 +4,6 @@
   language: python
   types: [python]
   additional_dependencies: [pylint]
+  args: [
+    "--load-plugins=pylint-checkers:boolean_naming_checker"
+  ]
