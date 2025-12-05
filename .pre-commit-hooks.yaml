@@ -1,0 +1,6 @@
+- id: pylint-setka
+  name: My Custom Linter
+  description: Lints Python files with a custom script.
+  entry: pylint_boolean_naming.checker
+  language: python
+  types: [python]
