@@ -27,7 +27,7 @@ class BooleanNamingChecker(BaseChecker):
             "Invalid boolean variable name '%s'",
             "invalid-boolean-variable-name",
             """Use a prefix to indicate that the variable is a boolean.
-             https://www.notion.so/pyn-ru/Code-style-19ae74561c4480bd82afd47c48912a47?source=copy_link#19ae74561c44806e909efa3ccee80018"""
+             https://www.notion.so/pyn-ru/Code-style-19ae74561c4480bd82afd47c48912a47"""
         )
     }
     options = (
@@ -110,3 +110,7 @@ class BooleanNamingChecker(BaseChecker):
             self.add_message(
                 "invalid-boolean-variable-name", node=node.target, args=name
             )
+
+def register(linter):
+    """ Registing checker to lint"""
+    linter.register_checker(BooleanNamingChecker(linter))

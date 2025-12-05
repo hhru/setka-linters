@@ -1,0 +1,5 @@
+- id: pylint-boolean-naming
+  name: pylint-boolean-naming
+  entry: pylint
+  language: system
+  types: [python]

@@ -1,5 +1,0 @@
-- id: pylint-boolean-naming
-  entry: pylint-boolean-naming
-  name: pylint-boolean-naming.checker
-  language: python
-  types: [text]
